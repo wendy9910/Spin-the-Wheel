@@ -8,15 +8,21 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
     <link href="styles/style.css" rel="stylesheet" type="text/css">
-
 </head>
 
 <body>
-    <h1>你好</h1>
-    <img src="Image/dog.jpg">
-    <button>welcome</button>
+    <h1>讓幸運轉盤決定今天吃什麼!!</h1>
+    <form>
+        請輸入餐廳名稱:<input type="text" name="輸入項目" id="RMname">
+    </form>
+    <button type="submit" name="送出結果" id="checkbutton">送出結果</button>
+    <!--注意層級關係，會造成顯示問題-->
+    <p id="inputshow"></p>
+    <lu id="list" name="listadd">
 
-    <script src="script/main.js"></script>
+    </lu>
+
+    <script src="script/random.js"></script>
 </body>
 
 </html>
