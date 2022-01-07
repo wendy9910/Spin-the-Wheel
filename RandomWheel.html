@@ -15,12 +15,21 @@
     <form>
         請輸入餐廳名稱:<input type="text" name="輸入項目" id="RMname">
     </form>
-    <button type="submit" name="送出結果" id="checkbutton">送出結果</button>
+    <br>
+    <button type="submit" name="新增選項" id="checkbutton">新增選項</button>
     <!--注意層級關係，會造成顯示問題-->
-    <p id="inputshow"></p>
-    <lu id="list" name="listadd">
+    <br>
+    <lu id="list" name="listadd" style='list-style-type:none'>
 
     </lu>
+    <table id="tableList">
+
+    </table>
+    <br>
+    <button id="get">送出結果</button>
+    <h1 id="ShowRandomOne"></h1>
+
+
 
     <script src="script/random.js"></script>
 </body>
